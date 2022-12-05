@@ -1,0 +1,44 @@
+@media (max-width : 900px) {
+    #center-site {
+        flex-direction: column;
+        justify-content : center ;
+    }
+    #perfil {
+        order: 0;
+    }
+    #foto {
+        order: 1;
+    }
+    #perfil ul li {
+        text-align: center;
+        list-style: none;
+        margin-left: -40px;
+    }
+    #menu-grade {
+        justify-content: center;
+        gap: 15px;
+        margin: 50px 0px;
+    }
+}
+
+@media (max-width : 720px) {
+    #grade ul {
+        display: none;
+    }
+    #bt-menu {
+        display: block;
+    }
+    #seguir {
+        margin: auto;
+    }
+}
+
+@media (max-width: 560px) {
+    .opc-circle {
+        max-width: 110px;
+        max-height: 110px;
+    }
+    #foto img {
+        max-width: 300px;
+    }
+}

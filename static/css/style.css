@@ -1,0 +1,106 @@
+/* start  main center*/
+#center-site {
+    max-width: 900px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+}
+#foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foto img {
+    display: block;
+    max-width: 380px;
+    border-radius: 50%;
+}
+#perfil h1 , #perfil h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    text-align: center;
+}
+#perfil ul li {
+    list-style: circle;
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 7px 0px;
+    font-size: 1.2rem;
+}
+#menu-grade {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.opc-circle {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.2px solid lightgray;
+}
+.opc-circle:hover{
+    background-color: rgba(206, 205, 205, 0.911);
+    backdrop-filter: blur( 10px );
+    color: black;
+}
+.opc-circle h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.yellow {
+    background-color: #EEA302;
+}
+.red {
+    background-color: #FF3B25;
+}
+.blue {
+    background-color: #80D8DA;
+}
+/* end main center */
+
+/* start arrow*/
+#escrever {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    position: relative;
+    top: 20px;
+    left: calc(50% - 35px);
+}
+#escrever img {
+    display: block;
+    max-width: 30px;
+}
+/*end arrow*/
+
+#seguir {
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    border: 1px solid  rgb(122, 14, 223);
+    padding: 7px;
+}
+#seguir h3 {
+    color: rgb(122, 14, 223);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95rem;
+}
+#seguir img {
+    display: block;
+    max-width: 50px;
+}

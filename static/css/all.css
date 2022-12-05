@@ -1,0 +1,137 @@
+body {
+    background-color: black;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+/* header start */
+
+#main-header {
+    width: 100%;
+}
+#header-conteiner {
+    max-width: 1280px;
+    margin: 2px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#name-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 7px;
+}
+#bol {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#name h2 a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  white;
+}
+#name #profission {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Zen Dots', cursive;
+}
+#name #profission::before {
+    content: " ";
+    width: 1.35px;
+    height: 14px;
+    background-color: lightgray;
+    display: inline-block;
+    margin-right: 3px;
+    border-radius: 10px;
+}
+#grade ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+#grade ul li a {
+    color: lightgray;
+    padding: 15px ;
+}
+#bt-menu {
+    display: none;
+    width: 70px;
+    height: 70px;
+    background : url("../imagen/menu.png") no-repeat center center;
+    background-size: 50px 50px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+/* header end  */
+
+/* start  menu mobile */
+#aba-menu-hamburger {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+    z-index: 100;
+}
+#cabecalho-hamburge {
+   width: 100%;
+}
+#box-mobile {
+    max-width: 1250px;
+    margin: 10px auto;
+    padding: 10px;
+}
+#close {
+    width: 50px;
+    height: 50px;
+    background: url("../imagen/x.png") no-repeat center center ;
+    background-size: 25px 25px;
+}
+/* end menu mobile  */
+
+/* start main */
+#main-contato {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 0px;
+}
+#main-contato ul {
+    display: block;
+    margin: 1px auto;
+    max-width: 300px;
+}
+#main-contato ul li {
+    margin-left: -40px;
+    margin-bottom: 20px;
+}
+#main-contato ul li a {
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    border-bottom: 1px solid white;
+    display: block;
+    max-width: 100%;
+    text-align: center;
+}
+
+/* end main */
